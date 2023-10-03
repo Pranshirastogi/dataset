@@ -26,7 +26,7 @@ if st.sidebar.checkbox('Attribute Information'):
     st.write(df['Attrition'].value_counts())
     st.subheader('Attrition Percentage:')
     st.write(df['Attrition'].value_counts()/df.shape[0]*100)
-    st.bokeh_chart(df['Attrition'].value_counts())
+    st.bar_chart(df['Attrition'].value_counts())
 st.sidebar.subheader('Visualization Selector')
 
 
