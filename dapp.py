@@ -3,6 +3,8 @@ import pandas as pd
 import streamlit as st
 import plotly.express as px 
 
+st.cache_data()
+
 st.title('HR-EMPLOYEE-ATTRITION')
 st.markdown('''**HR-EMPLOYEE-ATTRITION** is a web app to predict the attrition of an employee in an organization.
             This app shows the prediction of attrition of an employee based on the data provided by the user.
